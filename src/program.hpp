@@ -12,7 +12,12 @@
 // Main OpenGL program
 void runProgram(GLFWwindow* window);
 
+// ov1: vertex array object setup
 unsigned int VAOsetup(float*, int, int*, int);
+
+// ov2: now with colours!
+unsigned int VAOsetup_colourized(float*, int, int*, int, float*, int);
+
 
 // Function for handling keypresses
 void handleKeyboardInput(GLFWwindow* window);
